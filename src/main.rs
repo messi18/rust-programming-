@@ -1,6 +1,7 @@
 mod restaurant;
 mod ch4;
 mod ch5;
+mod ch10;
 
 use restaurant::*;
 fn main() {

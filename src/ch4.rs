@@ -45,9 +45,9 @@ fn run3_2() {
     println!("The value of guess is {}", guess);
     let x = 3.0;
     let y:f32 = 4.0;
-    let z = x * y;
-    let w = y % 3.0;
-    let a = [3;5];
+    let _z = x * y;
+    let _w = y % 3.0;
+    let _a = [3;5];
 
     let a = [2,5,7,1,9];
     let mut  index = String::new();
