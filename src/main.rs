@@ -2,6 +2,11 @@ mod restaurant;
 mod ch4;
 mod ch5;
 mod ch10;
+mod ch8;
+mod ch12;
+mod ch13;
+mod ch15;
+mod ch16;
 
 use restaurant::*;
 fn main() {

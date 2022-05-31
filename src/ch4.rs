@@ -67,11 +67,27 @@ fn run3_3() {
 fn run3_5() {
     let x = 3;
     if x != 0 {
-        println!("x is number")
+        println!("x is number");
     }
     let a = [3,6,2,1,8,6];
     for i in a {
         println!("ele is {}",i);
     }
+}
+
+fn get_ownership() -> String {
+    String::from("aa")
+}
+fn get_ownership_back(s:String)-> String {
+    s
+}
+fn get_first_word(s:&String) -> &str {
+    let x = s.as_bytes();
+    for (i,&b) in x.iter().enumerate() {
+        if b == b' ' {
+            return &s[0..i];
+        }
+    }
+    return &s[..];
 }
 
